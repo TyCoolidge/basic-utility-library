@@ -25,15 +25,16 @@ function divide(div1, div2) {
 
 function increment(myValue) {
    //return should add one to value
-   // come back and check code
-   return ++myValue;
+   myValue++;
+   return myValue;
 }
 function decrement(myValue) {
    //return should add one to value
-   return --myValue;
+   myValue--;
+   return myValue;
 }
 
-function decimal(dec1, dec2) {
+function multiDecimal(dec1, dec2) {
    //return should multiple two Decimals
    return dec1 * dec2;
 }
@@ -43,7 +44,20 @@ function divDecimal(dec1, dec2, dec3) {
    return dec1 / dec2 / dec3;
 }
 
-function findRemainder(num1, num2) {
-   //returns the remainder of the quotient of two Numbers
-   return num1 % num2;
+//fix these
+function concatenate(word1) {
+   //will concatenate the two inputs
+
+   return "The dog is " + word1 + ".";
+}
+
+function concatenatePlusEquals(word1, word2) {
+   //return should concatenate adjective with phrase
+
+   return (word1 += word2);
+}
+
+function constructString(fruit) {
+   //return should subtract 100 from number typed
+   return "My favorite fruit is a/an " + fruit + " because it is delicious.";
 }

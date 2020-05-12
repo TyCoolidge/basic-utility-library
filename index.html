@@ -26,44 +26,67 @@
                   <span id="totalFunctionNum"></span> functions documented
                </p>
 
-               <!-- addition start column -->
-               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
-                  <p class="name"><b>add</b> - Add two values together</p>
-                  <pre style="display: none;"><code></code></pre>
-                  <div class="actions float-right">
-                     <input type="text" class="form-control inline-action" />
-                     <input type="text" class="form-control inline-action" />
-                     <button class="btn btn-primary inline-action">
-                        Run
-                     </button>
-                  </div>
-                  <div class="clearfix mb-3"></div>
-                  <div class="alert alert-primary" style="display: none;"></div>
-                  <div class="alert alert-danger" style="display: none;"></div>
-               </div>
-               <!-- end column -->
-
-               <!-- subtraction start column -->
-               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
-                  <p class="name"><b>subtract</b> - Subtract the two values</p>
-                  <pre style="display: none;"><code></code></pre>
-                  <div class="actions float-right">
-                     <input type="text" class="form-control inline-action" />
-                     <input type="text" class="form-control inline-action" />
-                     <button class="btn btn-primary inline-action">
-                        Run
-                     </button>
-                  </div>
-                  <div class="clearfix mb-3"></div>
-                  <div class="alert alert-primary" style="display: none;"></div>
-                  <div class="alert alert-danger" style="display: none;"></div>
-               </div>
-               <!-- end column -->
-
-               <!-- multiplication start column -->
+               <!-- compound assigment w/ augmented subtraction column -->
                <div class="col-12 col-lg-8 offset-lg-2 mb-5">
                   <p class="name">
-                     <b>multiply</b> - Multiplies 3 values together
+                     <b>constructString</b> - Will add favorite fruit to string
+                     "My favorite fruit is a/an... because it is delicious."
+                  </p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input type="text" class="form-control inline-action" />
+
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+               <!-- concatenate with plus equals column -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name">
+                     <b>concatenatePlusEquals</b> - will concatenate the first
+                     strong to second existing string
+                  </p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input type="text" class="form-control inline-action" />
+                     <input type="text" class="form-control inline-action" />
+
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+               <!-- concatenate start column -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name">
+                     <b>concatenate</b> - will concatenate the input to the end
+                     of the phrase "The dog is ..."
+                  </p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input type="text" class="form-control inline-action" />
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+               <!-- divide decimal start column -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name">
+                     <b>divDecimal</b> - divides three decimal numbers
                   </p>
                   <pre style="display: none;"><code></code></pre>
                   <div class="actions float-right">
@@ -79,34 +102,14 @@
                   <div class="alert alert-danger" style="display: none;"></div>
                </div>
                <!-- end column -->
-
-               <!-- dividing start column -->
+               <!-- multiply decimal start column -->
                <div class="col-12 col-lg-8 offset-lg-2 mb-5">
-                  <p class="name">
-                     <b>divide</b> - Divides the 2 values to equal quotient
-                  </p>
+                  <p class="name"><b>multiDecimal</b> - mutiplies decimals</p>
                   <pre style="display: none;"><code></code></pre>
                   <div class="actions float-right">
                      <input type="text" class="form-control inline-action" />
                      <input type="text" class="form-control inline-action" />
-                     <button class="btn btn-primary inline-action">
-                        Run
-                     </button>
-                  </div>
-                  <div class="clearfix mb-3"></div>
-                  <div class="alert alert-primary" style="display: none;"></div>
-                  <div class="alert alert-danger" style="display: none;"></div>
-               </div>
-               <!-- end column -->
 
-               <!-- increment start column -->
-               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
-                  <p class="name">
-                     <b>increment</b> - adds one to existing number
-                  </p>
-                  <pre style="display: none;"><code></code></pre>
-                  <div class="actions float-right">
-                     <input type="text" class="form-control inline-action" />
                      <button class="btn btn-primary inline-action">
                         Run
                      </button>
@@ -134,15 +137,14 @@
                   <div class="alert alert-danger" style="display: none;"></div>
                </div>
                <!-- end column -->
-
-               <!-- multiply decimal start column -->
+               <!-- increment start column -->
                <div class="col-12 col-lg-8 offset-lg-2 mb-5">
-                  <p class="name"><b>decimal</b> - mutiplies decimals</p>
+                  <p class="name">
+                     <b>increment</b> - adds one to existing number
+                  </p>
                   <pre style="display: none;"><code></code></pre>
                   <div class="actions float-right">
                      <input type="text" class="form-control inline-action" />
-                     <input type="text" class="form-control inline-action" />
-
                      <button class="btn btn-primary inline-action">
                         Run
                      </button>
@@ -152,11 +154,28 @@
                   <div class="alert alert-danger" style="display: none;"></div>
                </div>
                <!-- end column -->
-
-               <!-- divide decimal start column -->
+               <!-- dividing start column -->
                <div class="col-12 col-lg-8 offset-lg-2 mb-5">
                   <p class="name">
-                     <b>divDecimal</b> - divides three decimal numbers
+                     <b>divide</b> - Divides the 2 values to equal quotient
+                  </p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input type="text" class="form-control inline-action" />
+                     <input type="text" class="form-control inline-action" />
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+               <!-- multiplication start column -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name">
+                     <b>multiply</b> - Multiplies 3 values together
                   </p>
                   <pre style="display: none;"><code></code></pre>
                   <div class="actions float-right">
@@ -172,13 +191,25 @@
                   <div class="alert alert-danger" style="display: none;"></div>
                </div>
                <!-- end column -->
-
-               <!-- divide number and get remainder start column -->
+               <!-- subtraction start column -->
                <div class="col-12 col-lg-8 offset-lg-2 mb-5">
-                  <p class="name">
-                     <b>findRemainder</b> - divide both number and finds
-                     remainder
-                  </p>
+                  <p class="name"><b>subtract</b> - Subtract the two values</p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input type="text" class="form-control inline-action" />
+                     <input type="text" class="form-control inline-action" />
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+               <!-- addition start column -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name"><b>add</b> - Add two values together</p>
                   <pre style="display: none;"><code></code></pre>
                   <div class="actions float-right">
                      <input type="text" class="form-control inline-action" />
