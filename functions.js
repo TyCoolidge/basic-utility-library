@@ -25,5 +25,25 @@ function divide(div1, div2) {
 
 function increment(myValue) {
    //return should add one to value
-   return myValue++;
+   // come back and check code
+   return ++myValue;
+}
+function decrement(myValue) {
+   //return should add one to value
+   return --myValue;
+}
+
+function decimal(dec1, dec2) {
+   //return should multiple two Decimals
+   return dec1 * dec2;
+}
+
+function divDecimal(dec1, dec2, dec3) {
+   //returns quotient of 3 decimals
+   return dec1 / dec2 / dec3;
+}
+
+function findRemainder(num1, num2) {
+   //returns the remainder of the quotient of two Numbers
+   return num1 % num2;
 }
