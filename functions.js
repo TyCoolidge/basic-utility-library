@@ -95,10 +95,54 @@ function nthToLastLetter(word1, word2, word3, word4) {
    );
 }
 
-function pushVar(team1, teams) {
+function pushVar(input1) {
    //will push input to the create list
-   teams = ["Lakers", "Knicks", "Celtics"];
-   pushVar.push(team1);
-   return;
+   team = ["Lakers", " Knicks", " Celtics"];
+   team.push(" " + input1);
+   return team;
 }
-//
+
+function popVar(input) {
+   //will add the users input and pop the end of Array
+   foodList = ["bananas", "apples", "limes", "strawberry"];
+   foodList.pop();
+   foodList.push(input);
+   return foodList;
+}
+
+function shiftVar(input) {
+   //will add the users input and shift the front of Array
+   foodList2 = ["chicken", " sausage", " pork", " steak"];
+   foodList2.shift();
+   foodList2.push(input);
+   return foodList2;
+}
+
+function unshiftVar(input) {
+   //will add the users input to the front of array and shift the front of Array
+   foodList2 = ["omelete", " waffles", " french toast", " pancakes"];
+   foodList2.shift();
+   foodList2.unshift(input);
+   return foodList2;
+}
+
+function listVar(foodie, num1) {
+   //will add user input to a shopping list
+   foodList3 = [
+      ["Apples", 4],
+      ["Carrots", 6],
+      ["Potatoes", 2],
+      ["Milk", 5],
+      ["Eggs", 12],
+   ];
+   foodList3.push(foodie, num1);
+   return "[" + foodList3 + "]";
+}
+
+function standInLine(input) {
+   carList = ["car1", "car2", "car3", "car4"];
+   carList.push(input);
+   carList.shift();
+
+   return carList;
+}
